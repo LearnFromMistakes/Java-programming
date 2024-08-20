@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class PatternJava {
 
 	public static void main(String[] args) {
+
+		pattern();
+
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		int i = sc.nextInt();
@@ -21,6 +24,10 @@ public class PatternJava {
 			System.out.println();
 		}
 		sc.close();
+	}
+	static void pattern()
+	{
+		System.out.println("Simply hello");
 	}
 
 }
